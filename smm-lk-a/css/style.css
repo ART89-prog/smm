@@ -1662,3 +1662,78 @@ form label.error .text-error {
 
 
 /* ENTRY END */
+
+
+
+.lk-password {
+    margin-top: 20px;
+    padding: 20px 21px 35px 18px;
+    background: #E6E2F7;
+    border-radius: 15px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+.lk-password_icon {
+    flex-shrink: 0;
+    margin-right: 13px;
+}
+.lk-password_text {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;    
+    color: #2C2C2C;
+}
+.lk-password_text a {
+    color: #3178EF;
+}
+.lk-password_text span {
+    color: #3178EF;
+}
+.lk-password_close {
+    position: absolute;
+    top: 13px;
+    right: 13px;
+    width: 15px;
+    height: 15px;
+}
+
+@media (max-width: 479px) {
+    .lk-password {
+        display: none;
+    }
+    .lk-password_mob {
+        display: block !important; 
+    }
+    .lk-password_mob {
+        margin-top: 20px;
+        padding: 20px 21px 35px 18px;
+        background: #E6E2F7;
+        border-radius: 15px;
+        display: flex; 
+        justify-content: space-between;
+        align-items: flex-start;
+        position: relative;
+        width: 327px;
+    }
+    .lk-password_mob .lk-password_icon {
+        flex-shrink: 0;
+        margin-right: 13px;
+    }
+    .lk-password_mob .lk-password_text {
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 15px;    
+        color: #2C2C2C;
+    }
+    .lk-password_mob .lk-password_text a {
+        color: #3178EF;
+    }
+    .lk-password_mob .lk-password_text span {
+        color: #3178EF;
+    }
+
+}
+
+
