@@ -1,0 +1,299 @@
+
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/nouislider.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/tippy.css">
+    <link rel="stylesheet" href="css/light.css">
+    <link rel="stylesheet" href="css/scale.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/nouislider.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/tippy-bundle.umd.js"></script>
+    <script src="js/wNumb.min.js"></script>
+    <script src="js/file.js"></script>
+    <script src="js/clipboard.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="js/my.js"></script>
+
+<title>SMM MEDIA</title>
+</head>
+<body>
+<div class="wrapper">
+    <main>
+        <div class="section tickets section--main">
+            <div class="container">
+
+
+            <header class="header">
+                <div class="header-mob">
+                    <button class="open-menu"></button>
+                    <div class="header-mob__title">Tикеты</div>
+                </div>
+                <a href="" class="logo">
+                    <img src="img/logo.svg" alt="">
+                </a>
+                <div class="lk-user">
+                    <div class="lk-user__photo">
+                        <img src="img/user.png" alt="">
+                    </div>
+                    <div class="lk-user__info">
+                        <div class="lk-user__name">
+                            Иван Петрович
+                            <svg class="icon" data-tippy-content="Тултип. Какой то текст. Может несколько строчек. Может быть три строчки. Может быть сколько угодно"><use xlink:href="#icon-info"></use></svg>
+                        </div>
+                        <p>Рейтинг: 3.73 | Баланс: 2,973 р</p>
+                    </div>
+                    <a href="" class="logout"></a>
+                </div>
+            </header>
+
+            <div class="main-content main-content--lk">
+                <div class="main-content__body">
+                    <div class="main-content__row">
+                        <div class="main-content__aside aside--lk">
+                            <div class="aside--lk__head">
+                                <div class="lk-user">
+                                    <div class="lk-user__photo">
+                                        <img src="img/user.png" alt="">
+                                    </div>
+                                    <div class="lk-user__info">
+                                        <div class="lk-user__name">
+                                            Иван Петрович
+                                            <svg class="icon icon-gradient"><use xlink:href="#icon-info"></use></svg>
+                                        </div>
+                                        <p>Рейтинг: 3.73<br/>
+                                            Баланс: 2,973</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lk-menu">
+                                <a href="">
+                                    <span><img src="img/lk-menu/1.png" alt=""></span>
+                                    Накрутка
+                                </a>
+                                <a href="">
+                                    <span><img src="img/lk-menu/2.png" alt=""></span>
+                                    История заказов
+                                </a>
+                                <a href="">
+                                    <span><img src="img/lk-menu/3.png" alt=""></span>
+                                    Пополнить баланс
+                                </a>
+                                <a href="">
+                                    <span><img src="img/lk-menu/4.png" alt=""></span>
+                                    Промокоды
+                                </a>
+                                <a href="">
+                                    <span><img src="img/lk-menu/5.png" alt=""></span>
+                                    Рефералы
+                                </a>
+                                <a href="">
+                                    <span><img src="img/lk-menu/6.png" alt=""></span>
+                                    Вывод средств
+                                </a>
+                                <a href="" class="active">
+                                    <span><img src="img/lk-menu/7.png" alt=""></span>
+                                    Поддержка
+                                </a>
+                                <a href="">
+                                    <span><img src="img/lk-menu/8.png" alt=""></span>
+                                    Настройки
+                                </a>
+                            </div>
+                        </div>
+                        <div class="overlay--lk"></div>
+                        <div class="main-content__form">
+                            <div class="main-content__head">
+                                <div class="main-content__social">
+                                    <div class="social-list__title">
+                                        Мои тикеты
+                                    </div>
+                                    <a href="#" class="social-list__link">
+                                        <svg class="icon"><use xlink:href="#icon-arrows"></use></svg>
+                                        <span>Вернуться к FAQ</span> 
+                                    </a>
+                                    <a  data-fancybox="" href="#modal_tickets" class="btn btn-primary" style="display: none;">Открыть&nbsp;Новый</a>
+                                </div>                               
+                            </div>
+
+                            <div class="tickets_information">
+                                <div class="tickets_information-head">
+                                    <p>ID</p>
+                                    <p>Тема</p>
+                                    <p>Дата создания</p>
+                                    <p>Статус</p>
+                                </div>
+                                <div class="tickets_information-body">
+                                    <p>32481</p>
+                                    <p>
+                                        Новый тикет
+                                        <span class="tickets_information-name-counter">3</span>
+                                    </p>
+                                    <p>22 октября в 00:45
+                                        <span class="tickets_information-date-counter" style="display: none;">3</span>
+                                    </p>
+                                    <p>Открыт</p>
+                                </div>
+                                <div class="tickets_information-body">
+                                    <p>32481</p>
+                                    <p>Название тикета</p>
+                                    <p>22 октября в 00:45</p>
+                                    <p>Открыт</p>
+                                </div>
+                                <div class="tickets_information-body">
+                                    <p>32481</p>
+                                    <p>Почему не выводятся<br> средства. Верните деньги</p>
+                                    <p>22 октября в 00:45</p>
+                                    <p>Закрыт</p>
+                                </div>
+                            </div>
+                            <a  data-fancybox="" href="#modal_tickets" class="btn btn-primary tickets_information-link">Создать&nbsp;Новый</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            </div>
+        </div>
+    </main>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-col">
+            <div class="footer-col__row">
+                <a href="" class="logo">
+                    <img src="img/logo.svg" alt="">
+                </a>
+                <div class="soc">
+                    <a href="">
+                        <img src="img/msg/vk.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="img/msg/ytb.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="img/msg/tg.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="img/msg/tiktok.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="copyright">
+                Copyright © 2021 smm.media Все права защищены
+            </div>
+        </div>
+        <div class="footer-col">
+            <p><a href="" class="footer-link">Правила пользования</a></p>
+            <p><a href="" class="footer-link">Политика конфедициальности</a></p>
+        </div>
+    </div>
+</footer>
+</div>
+
+
+
+
+
+
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <symbol id="icon-comeback" viewBox="0 0 60 32">
+            <path d="M53.309 11.164c2.67 0 4.855 2.185 4.855 4.855s-2.185 4.855-4.855 4.855h-34.993v8.691c0 2.185-2.622 3.253-4.127 1.699l-13.497-13.546c-0.922-0.971-0.922-2.476 0-3.447l13.497-13.546c1.505-1.554 4.127-0.437 4.127 1.699v8.739h34.993z"></path>
+        </symbol>
+        <symbol id="icon-check" viewBox="0 0 32 32">
+            <path d="M30.065 4.001c-0.488 0.014-0.952 0.215-1.292 0.558l-19.347 18.988-6.19-6.075c-0.471-0.482-1.172-0.676-1.83-0.508s-1.173 0.673-1.345 1.32c-0.172 0.646 0.026 1.333 0.517 1.796l7.519 7.379c0.734 0.72 1.924 0.72 2.658 0l20.676-20.292c0.556-0.53 0.723-1.341 0.421-2.042s-1.012-1.147-1.787-1.125z"></path>
+        </symbol>
+        <symbol id="icon-dots" viewBox="0 0 32 32">
+            <path fill="#eeecf1" d="M7.538 0.335h16.502c4.116 0 7.452 3.337 7.452 7.452v16.495c0 4.116-3.337 7.452-7.452 7.452h-16.502c-4.116 0-7.452-3.337-7.452-7.452v-16.495c0-4.116 3.337-7.452 7.452-7.452z"></path>
+            <path fill="#562c95" d="M10.442 14.173c-1.010 0-1.839 0.84-1.839 1.863s0.829 1.863 1.839 1.863c1.009 0 1.839-0.84 1.839-1.863s-0.829-1.863-1.839-1.863zM21.137 14.173c-1.010 0-1.839 0.84-1.839 1.863s0.829 1.863 1.839 1.863c1.009 0 1.839-0.84 1.839-1.863s-0.829-1.863-1.839-1.863zM13.951 16.036c0-1.022 0.829-1.862 1.838-1.862s1.838 0.84 1.838 1.862-0.829 1.862-1.838 1.862c-1.009 0-1.838-0.84-1.838-1.862z"></path>
+        </symbol>
+        <symbol id="icon-dropdown" viewBox="0 0 32 32">
+            <path d="M16.444 18.147l-10.555-10.617c-1.144-1.15-3-1.15-4.143 0s-1.144 3.018 0 4.168l12.745 12.821c1.080 1.086 2.829 1.086 3.906 0l12.745-12.821c1.143-1.15 1.143-3.018 0-4.168s-3-1.15-4.143 0l-10.554 10.617z"></path>
+        </symbol>
+        <symbol id="icon-eye" viewBox="0 0 32 32">
+            <path d="M15.851 5.613c-9.126 0-13.46 7.822-14.511 10.054-0.176 0.373-0.176 0.805 0 1.177 1.051 2.234 5.385 10.057 14.511 10.057 9.095 0 13.431-7.766 14.501-10.031 0.184-0.39 0.184-0.837 0-1.227-1.070-2.265-5.406-10.031-14.501-10.031zM15.851 9.604c3.674 0 6.654 2.979 6.654 6.653s-2.98 6.653-6.654 6.653c-3.674 0-6.654-2.979-6.654-6.653s2.98-6.653 6.654-6.653zM15.851 12.265c-2.205 0-3.992 1.787-3.992 3.992s1.787 3.992 3.992 3.992c2.205 0 3.992-1.787 3.992-3.992s-1.787-3.992-3.992-3.992z"></path>
+        </symbol>
+        <symbol id="icon-hearts" viewBox="0 0 32 32">
+            <path d="M22.199 2.108c-4.104 0.168-6.372 3.121-6.372 3.121s-2.268-2.953-6.372-3.121c-2.752-0.112-5.274 1.257-6.936 3.453-5.782 7.64 5.165 16.577 7.74 18.977 1.541 1.436 3.442 3.14 4.577 4.151 0.567 0.506 1.413 0.506 1.981 0 1.135-1.010 3.036-2.715 4.577-4.151 2.575-2.399 13.523-11.337 7.74-18.977-1.66-2.196-4.183-3.565-6.935-3.453z"></path>
+        </symbol>
+        <symbol id="icon-info" viewBox="0 0 32 32">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16c8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 24c-0.883 0-1.6-0.717-1.6-1.6v-6.4c0-0.883 0.717-1.6 1.6-1.6s1.6 0.717 1.6 1.6v6.4c0 0.883-0.717 1.6-1.6 1.6zM15.2 11.2h1.6c0.442 0 0.8-0.358 0.8-0.8v-1.6c0-0.442-0.358-0.8-0.8-0.8h-1.6c-0.442 0-0.8 0.358-0.8 0.8v1.6c0 0.442 0.358 0.8 0.8 0.8z"></path>
+        </symbol>
+        <symbol id="icon-staff" viewBox="0 0 32 32">
+            <path d="M15.846 7.002c-2.205 0-3.992 1.787-3.992 3.992s1.787 3.992 3.992 3.992c2.205 0 3.992-1.787 3.992-3.992s-1.787-3.992-3.992-3.992zM6.531 9.663c-1.47 0-2.662 1.191-2.662 2.661s1.192 2.661 2.662 2.661c1.47 0 2.662-1.191 2.662-2.661s-1.192-2.661-2.662-2.661zM25.162 9.663c-1.47 0-2.662 1.191-2.662 2.661s1.192 2.661 2.662 2.661c1.47 0 2.662-1.191 2.662-2.661s-1.192-2.661-2.662-2.661zM15.846 17.646c-4.7 0-7.985 1.76-7.985 4.28v2.373c0 0.734 0.596 1.331 1.331 1.331h13.308c0.735 0 1.331-0.596 1.331-1.331v-2.373c0-2.52-3.284-4.28-7.985-4.28zM5.972 17.662c-2.652 0.144-4.764 1.306-4.764 2.934v1.042c0 0.734 0.596 1.331 1.331 1.331h2.662v-1.042c0-1.67 0.701-3.113 1.942-4.249-0.004-0.011-0.001-0.002-0.005-0.013-0.396-0.023-0.786-0.023-1.164-0.003zM25.721 17.662c-0.379-0.021-0.768-0.020-1.164 0.003-0.004 0.011-0.001 0.002-0.005 0.013 1.24 1.136 1.942 2.58 1.942 4.249v1.042h2.662c0.735 0 1.331-0.596 1.331-1.331v-1.042c0-1.628-2.113-2.79-4.764-2.934z"></path>
+        </symbol>        
+        <symbol id="icon-ok" width="24" height="24" viewBox="0 0 24 24">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 12C0 5.3832 5.3832 0 12 0C18.6168 0 24 5.3832 24 12C24 18.6168 18.6168 24 12 24C5.3832 24 0 18.6168 0 12ZM11.1366 15.9366L17.1366 9.9366C17.4876 9.585 17.487 9.0156 17.1354 8.664C16.7838 8.3124 16.2144 8.3124 15.8628 8.664L10.4994 14.0274L8.136 11.664C7.7844 11.3124 7.215 11.3124 6.8634 11.664C6.5118 12.0156 6.5118 12.585 6.8634 12.9366L9.8634 15.9366C10.0392 16.1124 10.2696 16.2 10.5 16.2C10.7304 16.2 10.9608 16.1124 11.1366 15.9366Z" fill="#199A21"/>
+        </symbol>        
+        <symbol id="icon-no" width="24" height="24" viewBox="0 0 24 24">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 12C0 5.3724 5.3724 0 12 0C18.6276 0 24 5.3724 24 12C24 18.6276 18.6276 24 12 24C5.3724 24 0 18.6276 0 12ZM16.5366 16.536C16.8882 16.1844 16.8882 15.615 16.5366 15.2634L13.2726 12L16.536 8.7366C16.8876 8.385 16.8876 7.8156 16.536 7.464C16.1844 7.1124 15.615 7.1124 15.2634 7.464L12 10.7274L8.7366 7.464C8.385 7.1124 7.8156 7.1124 7.464 7.464C7.1124 7.8156 7.1124 8.385 7.464 8.7366L10.7274 12L7.4634 15.264C7.1118 15.6156 7.1118 16.185 7.4634 16.5366C7.6392 16.7124 7.8696 16.8 8.1 16.8C8.3304 16.8 8.5608 16.7124 8.7366 16.536L12 13.2726L15.2634 16.5366C15.4392 16.7124 15.6696 16.8 15.9 16.8C16.1304 16.8 16.3608 16.7124 16.5366 16.536Z" fill="#C21919"/>
+        </symbol>        
+        <symbol id="icon-time" width="24" height="24" viewBox="0 0 24 24">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 12C0 5.3832 5.3832 0 12 0C18.6168 0 24 5.3832 24 12C24 18.6168 18.6168 24 12 24C5.3832 24 0 18.6168 0 12ZM14.1 16.2C14.3304 16.2 14.5608 16.1124 14.7366 15.9366C15.0876 15.585 15.0876 15.015 14.7366 14.664L12 11.9274V5.7C12 5.2026 11.5974 4.8 11.1 4.8C10.6026 4.8 10.2 5.2026 10.2 5.7V12.3C10.2 12.5388 10.2948 12.7674 10.4634 12.9366L13.4634 15.9366C13.6392 16.1124 13.8696 16.2 14.1 16.2Z" fill="#F6D93E"/>
+        </symbol>
+        <symbol id="icon-eye"width="23" height="16">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.0033 0C4.1453 0 0.889 5.87864 0.099 7.55664C-0.033 7.83664 -0.033 8.16141 0.099 8.44141C0.889 10.1204 4.1453 16 11.0033 16C17.8373 16 21.0958 10.1629 21.8998 8.46094C22.0378 8.16794 22.0378 7.83206 21.8998 7.53906C21.0958 5.83706 17.8373 0 11.0033 0ZM11.0033 3C13.7643 3 16.0033 5.239 16.0033 8C16.0033 10.761 13.7643 13 11.0033 13C8.2423 13 6.0033 10.761 6.0033 8C6.0033 5.239 8.2423 3 11.0033 3ZM11.0033 5C9.34644 5 8.0033 6.34315 8.0033 8C8.0033 9.65685 9.34644 11 11.0033 11C12.6602 11 14.0033 9.65685 14.0033 8C14.0033 6.34315 12.6602 5 11.0033 5Z" fill="url(#paint0_linear_0_3182)"/>
+            <defs>
+            <linearGradient id="paint0_linear_0_3182" x1="-11.0016" y1="8" x2="4.21928" y2="28.9319" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#3087FB"/>
+            <stop offset="1" stop-color="#333DBD"/>
+            </linearGradient>
+            </defs>
+        </symbol>
+        <symbol id="icon-arrows" width="17" height="9" viewBox="0 0 17 9">
+            <path d="M14.9934 3.13985C15.7444 3.13985 16.3589 3.75433 16.3589 4.50537C16.3589 5.2564 15.7444 5.87088 14.9934 5.87088H5.15155V8.31515C5.15155 8.92963 4.41417 9.23004 3.99086 8.79308L0.194735 4.9833C-0.0647125 4.71019 -0.0647125 4.28688 0.194735 4.01378L3.99086 0.204C4.41417 -0.232964 5.15155 0.0811041 5.15155 0.68193V3.13985H14.9934Z" fill="#3178EF"/>
+        </symbol>
+            
+        
+
+        <linearGradient id="gradientPrimary" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#3087FB" />
+            <stop offset="100%" stop-color="#333DBD" />
+        </linearGradient>
+
+    </defs>
+</svg>
+
+
+<div style="display: none; width: 320px;" id="modal1">
+	<img src="img/modal_photo.jpg" alt="">
+</div>
+
+<div style="display: none; width: 320px;" id="modal2">
+	<img src="img/modal_photo.jpg" alt="">
+</div>
+
+<div class="modal_tickets" style="display: none;" id="modal_tickets">
+	<div class="modal_tickets-title">Создание тикета</div>
+    <form class="modal_tickets-form">
+        <div class="line">
+            <label for="message">Тема</label>
+            <input id="message" type="text" placeholder="Почему не выводятся средства. Верните деньги">
+        </div>
+        <div class="line">
+            <label for="message2">Сообщение</label>
+            <textarea id="message2" placeholder="Ваше сообщение"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary modal_tickets-btn">Создать&nbsp;Тикет</button>
+    </form>
+</div>
+
+</body>
+</html>
